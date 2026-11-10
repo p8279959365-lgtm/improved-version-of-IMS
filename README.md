@@ -438,6 +438,11 @@ Its upgraded architecture introduces supplier-specific stock tracking, FIFO cons
 
 By combining a modern Java Swing interface with JDBC and MySQL, the application aims to improve inventory accuracy, financial visibility, and data consistency while retaining the functionality of the original inventory management system.
 
+
+how to run it 
+
+by calling the sql connector from the terminal
+java -cp".;library\mysql-connector-j-26.7.0.jar" main.java
 ---
 
 **Project Name:** StockPilot — Inventory Management System  
