@@ -88,5 +88,11 @@ The unit purchase cost should not be removed: it is the cost per unit on a parti
 - Billing stock deductions are recorded in `bill_stock_movements` so a newly created bill can be voided without losing stock.
 - Stock rows with quantities or transaction history are retained; use Adjust Stock to record verified losses/count corrections instead of deleting rows. This preserves links needed by bills and purchase history.
 - Test on a copy of your database before using this application with business-critical data.
-#   i m p r o v e d - v e r s i o n - o f - I M S  
+#   i m p r o v e d - v e r s i o n - o f - I M S 
  
+
+ 
+### how to run it 
+
+ java -cp ".;library\mysql-connector-j-26.7.0.jar" main.java  
+                 
